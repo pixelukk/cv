@@ -1,0 +1,92 @@
+/* ====== General Reset ====== */
+body {
+  padding-top: 40px; /* supaya gambar jumbotron tidak tertutup navbar */
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+/* ====== Navbar ====== */
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #6dc5f3 !important;
+}
+
+/* ====== Jumbotron ====== */
+.jumbotron {
+  padding-top: 4rem;
+  background-color: #e2edff;
+}
+
+.jumbotron img {
+  margin-top: 20px;
+}
+
+.jumbotron h1 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.jumbotron p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ====== Section About ====== */
+#About {
+  padding-top: 5rem;
+  background-color: #fff;
+}
+
+#About h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* ====== Activity ====== */
+#Activity {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+/* ====== Contact ====== */
+#contact {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+form .btn-primary {
+  background-color: #87cefa;
+  border: none;
+}
+
+form .btn-primary:hover {
+  background-color: #6dc5f3;
+}
+/* ====== Footer with SVG Wave ====== */
+footer {
+  background-color: #87cefa; /* sama dengan warna SVG */
+  margin-top: 0px; /* tempel ke SVG atas */
+  padding: -180px;
+  text-align: center;
+  position: relative;
+  color: #000;
+}
+
+svg {
+  /* hilangkan celah default SVG */
+  line-height: 0;
+}
